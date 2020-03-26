@@ -35,7 +35,7 @@ for(let i = 0 ; i < plus.length; i++)
    plus[i].addEventListener('click',function()
    {
        quantite[i].innerText=parseInt(quantite[i].innerText) + 1 ;
-       sum += parseFloat(price[i].innerText)  ;
+       sum += parseFloat(price[i].innerText) ;
        total.innerText=sum ;
      
    })
